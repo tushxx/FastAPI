@@ -92,3 +92,13 @@ def delete_clinic(clinic_id : int, db : Session = Depends(get_db)):
   db.delete(c)
   db.commit()
   return Response(status_code = 204)
+
+
+
+
+
+
+
+
+
+
